@@ -637,8 +637,8 @@ with tab4:
     if x_col == y_col:
         st.info(
             f"**Note:** X axis and Y axis are both set to **{x_col.replace('_', ' ')}**. "
-            "This action cannot be performed because the X and Y axes are the same variable — "
-            "a scatter plot requires two distinct features. "
+            "This action cannot be performed because the X and Y axes are the same variable. "
+            "Note that a scatter plot requires two distinct features. "
             "Please select a different variable for one of the axes."
         )
     else:
